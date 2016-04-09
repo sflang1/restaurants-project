@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Add devise for handle authentication
 gem 'devise'
 #Add Haml for writing User Interfaces
+gem "haml"
 gem "haml-rails", "~> 0.9"
 
 # Use ActiveModel has_secure_password
