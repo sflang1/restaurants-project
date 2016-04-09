@@ -33,6 +33,7 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
 Status API Training Shop Blog About
 
 # See https://help.github.com/articles/ignoring-files for more about ignoring files.
@@ -52,3 +53,4 @@ Status API Training Shop Blog About
 /log/*
 !/log/.keep
 /tmp
+
