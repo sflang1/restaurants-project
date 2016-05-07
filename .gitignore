@@ -54,3 +54,9 @@ Status API Training Shop Blog About
 !/log/.keep
 /tmp
 
+# Ignore the database.yml
+/config/database.yml
+/config/secrets.yml
+
+# Ignore the schema
+/db/schema.rb
