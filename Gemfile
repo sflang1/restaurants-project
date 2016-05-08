@@ -30,6 +30,8 @@ gem "haml-rails", "~> 0.9"
 
 #Add Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
+# Material Bootstrap
+gem 'bootstrap-material-design-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -46,6 +48,8 @@ gem 'keen'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # Gem pry for debugging
+  gem 'pry'
 end
 
 group :development do
