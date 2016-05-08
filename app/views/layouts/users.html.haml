@@ -1,7 +1,6 @@
 - content_for :body_content do
   = render partial: "shared/navbar"
   = render partial: "shared/notices"
-  .container
-    = yield
+  = yield
 
 = render template: 'layouts/application'
